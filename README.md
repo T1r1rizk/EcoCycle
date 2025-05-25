@@ -1,16 +1,39 @@
-# ecocycle
+# 🌱 EcoCycle - Sustainable Waste Management App
 
-A new Flutter project.
+EcoCycle is a green mobile application that promotes sustainable waste management by incentivizing users to recycle. The app connects individuals, businesses, facility managers, and recycling organizations in a unified ecosystem.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 **QR Code Scanning**: Scan recycling bags or packaging to earn points.
+- 🧾 **Points & Rewards System**: Accumulate points and redeem them for eco-friendly rewards and vouchers.
+- 📍 **Pickup Requests with Geolocation**: Schedule waste pickups using integrated maps.
+- 👤 **User Profiles**: Track points, transaction history, and manage account details.
+- 🔐 **Authentication**: Sign in using Google, Facebook, or Email/Password. Guest login also supported.
+- 🌐 **Supabase Backend**: Real-time database, authentication, and storage.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Tech Stack
+
+| Layer        | Technology        |
+|--------------|-------------------|
+| **Frontend** | Flutter (Dart)     |
+| **Backend**  | Supabase (PostgreSQL, Auth, Realtime, Storage) |
+| **State Management** | Provider |
+| **Maps**     | flutter_map / OpenStreetMap |
+| **QR Scanning** | `qr_code_scanner` |
+| **UI/UX Tools** | Figma, Responsive Design, Custom Transitions |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+git clone https://github.com/your-username/ecocycle.git
+cd ecocycle
+
+
+- For more information feel free to contact trizk30@gmail.com
