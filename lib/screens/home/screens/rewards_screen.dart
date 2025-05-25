@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/core/widget/points_display.dart';
-import 'package:flutter_application_3/features/home/widgets/offer_card.dart';
+import 'package:flutter_application_3/screens/home/widgets/offer_card.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:flutter_application_3/features/home/screens/offer_detail_screen.dart';
+import 'package:flutter_application_3/screens/home/screens/offer_detail_screen.dart';
 
 class AvailableOffersScreen extends StatefulWidget {
   final List<Map<String, dynamic>> activeOffers;

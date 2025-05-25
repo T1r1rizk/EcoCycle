@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/features/account/screens/withdraw_screen.dart';
-import 'package:flutter_application_3/features/auth/login_screen.dart';
+import 'package:flutter_application_3/screens/account/screens/withdraw_screen.dart';
+import 'package:flutter_application_3/screens/auth/login_screen.dart';
 // ignore: unused_import
-import 'package:flutter_application_3/features/auth/register_screen.dart'; // Updated to import the RegisterScreen
-import 'package:flutter_application_3/features/auth/signin_screen.dart';
-import 'package:flutter_application_3/features/home/screens/home_screen.dart';
-import 'package:flutter_application_3/features/home/screens/scan_qr_screen.dart';
-import 'package:flutter_application_3/features/home/screens/redeem_screen.dart';
-import 'package:flutter_application_3/features/home/screens/pickup_screen.dart';
-import 'package:flutter_application_3/features/home/screens/partner_scanner_screen.dart';
+import 'package:flutter_application_3/screens/auth/register_screen.dart'; // Updated to import the RegisterScreen
+import 'package:flutter_application_3/screens/auth/signin_screen.dart';
+import 'package:flutter_application_3/screens/home/screens/home_screen.dart';
+import 'package:flutter_application_3/screens/home/screens/scan_qr_screen.dart';
+import 'package:flutter_application_3/screens/home/screens/redeem_screen.dart';
+import 'package:flutter_application_3/screens/home/screens/pickup_screen.dart';
+import 'package:flutter_application_3/screens/home/screens/partner_scanner_screen.dart';
 // import 'package:flutter_application_3/features/home/screens/rewards_screen.dart';
-import 'package:flutter_application_3/features/account/screens/about_me_screen.dart';
-import 'package:flutter_application_3/features/account/screens/address_screen.dart';
-import 'package:flutter_application_3/features/account/screens/notifications_screen.dart';
+import 'package:flutter_application_3/screens/account/screens/about_me_screen.dart';
+import 'package:flutter_application_3/screens/account/screens/address_screen.dart';
+import 'package:flutter_application_3/screens/account/screens/notifications_screen.dart';
 
 class AppRoutes {
   // Auth Routes

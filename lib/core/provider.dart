@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../features/auth/auth_service.dart';
-import '../features/models/user_model.dart';
+import '../screens/auth/auth_service.dart';
+import '../screens/models/user_model.dart';
 import '../core/services/theme_service.dart';
 
 /* Shared Providers */

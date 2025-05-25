@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/features/account/widgets/profile_header.dart';
-import 'package:flutter_application_3/features/account/widgets/menu_item.dart';
-import 'package:flutter_application_3/features/account/screens/history_screen.dart';
+import 'package:flutter_application_3/screens/account/widgets/profile_header.dart';
+import 'package:flutter_application_3/screens/account/widgets/menu_item.dart';
+import 'package:flutter_application_3/screens/account/screens/history_screen.dart';
 import 'package:flutter_application_3/services/supabase_service.dart';
 
 class AccountScreen extends StatefulWidget {

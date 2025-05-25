@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print
 
-import 'package:flutter_application_3/features/models/address_model.dart';
+import 'package:flutter_application_3/screens/models/address_model.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class AddressService {

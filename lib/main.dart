@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/core/utils/routes.dart';
 import 'dart:async';
-import 'package:flutter_application_3/features/auth/login_screen.dart';
+import 'package:flutter_application_3/screens/auth/login_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://jlljsjzjzielfapbofzo.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpsbGpzanpqemllbGZhcGJvZnpvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQ4MjU5MTMsImV4cCI6MjA2MDQwMTkxM30.hWr7WgHJPG_Kx6tYMbkOOWFWZj7CWmmHXjGHdVsvkG8', 
+    url: 'your-supabase-url-here',
+    anonKey: 'your-anon-key-here', 
   );
 
   runApp(const EcoCycleApp());
