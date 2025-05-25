@@ -20,9 +20,9 @@ EcoCycle is a green mobile application that promotes sustainable waste managemen
 | Layer        | Technology        |
 |--------------|-------------------|
 | **Frontend** | Flutter (Dart)     |
-| **Backend**  | Supabase (PostgreSQL, Auth, Realtime, Storage) |
+| **Backend**  | Supabase (Auth, Realtime, Storage) |
 | **State Management** | Provider |
-| **Maps**     | flutter_map / OpenStreetMap |
+| **Maps**     | flutter_map |
 | **QR Scanning** | `qr_code_scanner` |
 | **UI/UX Tools** | Figma, Responsive Design, Custom Transitions |
 
